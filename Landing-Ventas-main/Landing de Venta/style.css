@@ -1,0 +1,92 @@
+* {
+    background-color: rgb(57, 192, 192);
+    font-family:  verdana, arial, helvetica;
+}
+.section-top{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 15px;
+}
+.section-top img {
+    width: 20vw;
+}
+.section-top h1 {
+    font-size: 4vw;
+    
+}
+.section-top, h1, img {
+    background-color: rgb(47, 47, 112);
+}
+.section-middle {
+    text-align: center;
+    font-size: 2rem;
+}
+.section-nav nav {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    border: 2px solid;
+    margin: 5px;
+    border-radius: 5px;
+    background-color:rgb(61, 61, 146);;
+}
+.section-nav nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0.5rem;
+    font-size: 1rem;
+    background-color:rgb(61, 61, 146);
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.section-jumbotron div img {
+    width: 40vw;
+    border-radius: 5px;
+}
+
+.section-jumbotron div {
+    border: 2px solid;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: rgb(61, 61, 146);
+}
+.section-jumbotron div p, form {
+    background-color: rgb(61, 61, 146);
+    color: white;
+}
+.section-blog {
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid white;
+    background-color: rgb(61, 61, 146);
+    border-radius: 5px;
+}
+.section-blog h3 , div, p {
+    background-color: rgb(61, 61, 146);
+    color: white;
+}
+.section-adicionales p {
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: rgb(61, 61, 146);
+    color: white;
+}
+footer div {
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: rgb(61, 61, 146);
+    color: white;
+}
+footer div p {
+    background-color: rgb(61, 61, 146);
+    color: white;
+}
